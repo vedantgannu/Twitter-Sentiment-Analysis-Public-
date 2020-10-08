@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<dc:title>tweepy Python Library</dc:title>
+	<dc:creator>Open Source Contributers: https://github.com/tweepy/tweepy/blob/master/CONTRIBUTORS</dc:creator>
+	<dc:subject>OAuthHandler</dc:subject>
+	<dc:subject>tweepy.api</dc:subject>
+	<dc:subject>tweepy.Stream and tweepy.StreamListener</dc:subject>
+	<dc:description>Library Version: 3.9.0. Enables users to authenticate using and connect their client registered applications with Twitter using OAuth 1a Authentication.
+	</dc:description>
+	<dc:description>Library Version: 3.9.0. Twitter API wrapper class provides a wrapper for the API as provided by Twitter</dc:description>
+	<dc:description>Library Version: 3.9.0. Twitter streaming API is used to download twitter messages in real time. tweepy.Stream establishes a streaming session and routes messages to StreamListener instance.
+	</dc:description>
+	<dc:date>2020-07-11</dc:date>
+	<dc:source>http://docs.tweepy.org/en/latest/index.html</dc:source>
+	<dc:rights>MIT License</dc:rights>
+
+	<dc:title>GeoPy Python Library</dc:title>
+	<dc:creator>Open Source Contributers: https://github.com/geopy/geopy/blob/master/AUTHORS</dc:creator>
+	<dc:subject>geopy.geocoders.Nominatim</dc:subject>
+	<dc:description>Library Version: 2.0.0. Nominatim geocoder for OpenStreetMap data. Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright
+	</dc:description>
+	<dc:date>2020-06-27</dc:date>
+	<dc:source>https://geopy.readthedocs.io/en/latest/#</dc:source>
+	<dc:rights>MIT License</dc:rights>
+
+	<dc:title>TextBlob Python Library</dc:title>
+	<dc:creator>Steven Loria</dc:creator>
+	<dc:creator>Open Source Contributers: https://github.com/sloria/TextBlob/blob/dev/AUTHORS.rst</dc:creator>
+	<dc:subject>textblob.blob.TextBlob</dc:subject>
+	<dc:description>Library Version: 0.15.3. A general text block, meant for larger bodies of text (esp. those containing sentences). Inherits from BaseBlob.
+	</dc:description>
+	<dc:date>2019-02-24</dc:date>
+	<dc:source>https://textblob.readthedocs.io/en/latest/api_reference.html</dc:source>
+	<dc:rights>MIT License</dc:rights>
+
+	<dc:title>Built in Python Library</dc:title>
+	<dc:creator>Python Software Foundation</dc:creator>
+	<dc:subject>re - Regular Expressions</dc:subject>
+	<dc:description>Python Version: 3.8.2. Comes from re.py. A regular expression (or RE) specifies a set of strings that matches it.</dc:description>
+	<dc:date>2020-02-24</dc:date>
+	<dc:source>https://docs.python.org/3/library/re.html</dc:source>
+	<dc:rights> OSI License: Python Software Foundation</dc:rights>
+
+	<dc:title>pandas Library</dc:title>
+	<dc:subject>DataFrame</dc:subject>
+	<dc:description>Library Version: 1.0.5. pandas is an open source library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
+	DataFrame is a two-dimensional, size-mutable, potentially heterogeneous tabular data.
+	</dc:description>
+	<dc:date>2020-06-17</dc:date>
+	<dc:source>https://pandas.pydata.org/docs/reference/index.html</dc:source>
+	<dc:rights>BSD-3-Clause License</dc:rights>
+
+	<dc:title>Dataset Column Variables</dc:title>
+	<dc:creator>Vedant Gannt</dc:creator>
+	<dc:subject>Data Collection Dates</dc:subject>
+	<dc:subject>Column 1: Date</dc:subject>
+	<dc:subject>Column 2: Username</dc:subject>
+	<dc:subject>Column 3: Country Code</dc:subject>
+	<dc:subject>Column 4: Tweet Id</dc:subject>
+	<dc:subject>Column 5: Original Tweet</dc:subject>
+	<dc:subject>Column 6: Cleaned Tweet</dc:subject>
+	<dc:subject>Column 7: Tweet URL</dc:subject>
+	<dc:subject>Column 8: Sentiment Score</dc:subject>
+	<dc:description>First 100 rows of data points were collected at 2020-10-07 03:59:37 AM EST
+	Second set of 100 rows of data points were collected at 2020-10-07 02:51:57 PM EST.
+	</dc:description>
+	<dc:description>Column 1: All values in Date(YYYY-MM-DD hh:mm:ss) column follow ISO 8601 for date and time specifications. This column is in UTC (Coordinated Universal Time) and tells the exact time that a tweet was posted to Twitter.
+	</dc:description>
+	<dc:description>Column 2: Each value in Username column is the twitter handles or screen name of a user who posted a particular tweet
+	</dc:description>
+	<dc:description>Column 3: Country Code column contains country codes of users'. Each is based off of a user's location as stated on their Twitter profile page. Codes follow ISO 3 form and users without a valid country code are given "None" as the value.
+	</dc:description>
+	<dc:description>Column 4: Tweet Id field contains unique numbers that Twitter uses to identify specific tweets. Can be used in certain tweepy library functions.
+	</dc:description>
+	<dc:description>Column 5: Original Tweet represents the text portion of the tweet that a user made. Tweets may have a https://t.co URL at the end of the text. This indicates that the tweet also contained media. The URL is the link to the tweet.
+	</dc:description>
+	<dc:description>Column 6: Cleaned Tweet takes Original Tweet text and uses regex to remove punctuation, @'s handles, hashtag pharses, and URL's contained within the original text.
+	</dc:description>
+	<dc:description>Column 7: Tweet URL column contains the URL for accessing tweets on Twitter's website. Tweet URL values are formed by: https://twitter.com/ + Username + /status/ + Tweet Id.
+	</dc:description>
+	<dc:description>Column 8: Sentiment Score contains sentiment scores that are found by passing Clean Tweet text into the sentiment analyzer provided by TextBlob python library. All scores are between -1 and 1 inclusive. 1 means highly positive while -1 means highly negative.
+	</dc:description>
+	<dc:date>2020-10-07</dc:date>
+	<dc:date>2020-10-07</dc:date>
+	<dc:rights>None</dc:rights>
+
+</metadata>
+
+
