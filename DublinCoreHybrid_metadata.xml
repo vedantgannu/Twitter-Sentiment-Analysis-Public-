@@ -64,7 +64,7 @@
 	<dc:subject>Column 7: Tweet URL</dc:subject>
 	<dc:subject>Column 8: Sentiment Score</dc:subject>
 	<dc:description>First 100 rows of data points were collected at 2020-10-07 03:59:37 AM EST
-	Second set of 100 rows of data points were collected at 2020-10-07 02:51:57 PM EST.
+	Second set of 100 rows of data points were collected at 2020-10-07 02:51:57 PM EST. All data is UTF-8 encoded.
 	</dc:description>
 	<dc:description>Column 1: All values in Date(YYYY-MM-DD hh:mm:ss) column follow ISO 8601 for date and time specifications. This column is in UTC (Coordinated Universal Time) and tells the exact time that a tweet was posted to Twitter.
 	</dc:description>
