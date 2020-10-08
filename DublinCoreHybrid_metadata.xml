@@ -43,7 +43,7 @@
 	<dc:source>https://docs.python.org/3/library/re.html</dc:source>
 	<dc:rights> OSI License: Python Software Foundation</dc:rights>
 
-	<dc:title>pandas Library</dc:title>
+	<dc:title>pandas Python Library</dc:title>
 	<dc:subject>DataFrame</dc:subject>
 	<dc:description>Library Version: 1.0.5. pandas is an open source library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
 	DataFrame is a two-dimensional, size-mutable, potentially heterogeneous tabular data.
